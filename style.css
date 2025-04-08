@@ -27,15 +27,103 @@ body  {
     margin: -8px;
     
 }
+.section3 {
+    z-index: 3;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop-v3.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section4 {
+    z-index: 4;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section5 {
+    z-index: 5;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section6 {
+    z-index: 6;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section7 {
+    z-index: 7;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarRoof-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section8 {
+    z-index: 8;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+.section9 {
+    z-index: 9;
+    background:url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-US.png) ;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -8px;
+}
+
+video {
+    z-index: -1;
+    background-size: cover;
+    height: 112.5vh;
+    background-repeat: no-repeat;
+    font-family: "Nunito Sans", sans-serif;
+    color: white;
+    padding: 0;
+    margin: -9px;
+    margin-top: 8px;
+}
 
 
 .content-head {
     display: flex;
     height: 70px;
-    width: 100%;
+    width: 100%
 }
-
-
+    
 .logo-div {
     justify-content: flex-start;
     align-self: flex-start;
@@ -111,7 +199,6 @@ body  {
     margin-top: -20px;
 }
 
-
 .order-1 {
     width: 250px;
     height: 40px;
@@ -121,6 +208,8 @@ body  {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
 }
 .order-1:hover {
     filter: brightness(90%);
@@ -137,6 +226,8 @@ body  {
     background-color: rgb(241, 241, 241);
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
 }
 .learn-1:hover {
     filter: brightness(90%);
@@ -205,6 +296,8 @@ body  {
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
 }
 .order-2:hover {
     filter: brightness(90%);
@@ -221,8 +314,467 @@ body  {
     background-color: rgb(241, 241, 241);
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
 }
 .learn-2:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+
+.s3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+}
+.cyber {
+    width: 400px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.star {
+    width: 150px;
+    filter: brightness(200%);
+}
+.stars1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    z-index: 33;
+    padding-top: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-3 {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    gap: 7px;
+}
+.order-3-1 {
+    width: 250px;
+    height: 4px;
+    background-color: rgb(239, 224, 222, .7);
+    z-index: 50;
+    margin-top: -40px;
+    margin-left: 699px;
+    display: flex;
+
+}
+.order-3 {
+    z-index: 40;
+    width: 250px;
+    height: 35px;
+    margin-top: 5px;
+    background-color: rgb(25, 16, 15, .7);
+    border: none;
+    outline: none;
+    color: rgb(113, 104, 102);
+    cursor: pointer;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-3:hover {
+    filter: brightness(100%);
+    transition:all 0.6s;
+    background-color: rgb(239, 224, 222);
+    color: rgb(147, 132, 132);
+}
+
+
+.learn-3 {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: rgb(113, 104, 102);
+    background-color: rgb(25, 16, 15, .7);
+    cursor: pointer;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-3:hover {
+    filter: brightness(100%);
+    transition:all 0.6s;
+    background-color: rgb(239, 224, 222);
+    color: rgb(147, 132, 132);
+}
+.s4{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s4 h1 {
+    font-size: 70px;
+}
+.s4 h2 {
+    margin-top: -65px;
+}
+
+.order-4 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-4:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-4 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-4 {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-4:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+
+.s5{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s5 h1 {
+    font-size: 70px;
+}
+.s5 h2 {
+    margin-top: -65px;
+}
+.order-5 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-5:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-5 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-5 {
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-5:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+
+.s6{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s6 h1 {
+    font-size: 70px;
+}
+.s6 h2 {
+    margin-top: -65px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.order-6 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-6:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-6 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-6{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-6:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.s7{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s7 h1 {
+    font-size: 70px;
+}
+.s7 h2 {
+    margin-top: -65px;
+}
+.order-7 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-7:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-7 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-7{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-7:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.s8{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s8 h1 {
+    font-size: 70px;
+}
+.order-8 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-8:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-8 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-8{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-8:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.s9{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.s9 h1 {
+    font-size: 70px;
+}
+.order-9 {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(65, 95, 230);
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.order-9:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+.btn-9 {
+    display: flex;
+    margin: auto;
+    gap: 5px;
+    margin-top: 660px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.learn-9{
+    width: 250px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-9:hover {
+    filter: brightness(90%);
+    transition: filter 0.3s;
+}
+
+
+.s10{
+    display: flex;
+    z-index: 10;
+    margin-top: -600px;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 20px;
+}
+.s10 h1 {
+    font-size: 50px;
+}
+.btn-10 {
+    display: flex;
+    /* margin: auto; */
+    gap: 5px;
+    margin-top: -30px;
+    margin-left: 20px;
+    /* justify-content: center;
+    align-items: center; */
+    
+}
+.learn-10{
+    width: 170px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+}
+.learn-10:hover {
     filter: brightness(90%);
     transition: filter 0.3s;
 }
