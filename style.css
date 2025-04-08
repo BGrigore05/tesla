@@ -17,7 +17,7 @@ body  {
 }
 .section2 {
     z-index: 2;
-    background:url(images/model-3.avif) ;
+    background:url(model-3.avif) ;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
