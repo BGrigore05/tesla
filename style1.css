@@ -456,7 +456,7 @@ hr {
 }
 .container1 {
     background-color: rgb(26, 26, 26);
-    height: 3000px;
+    height: 2200px;
     width: 101.4%;
     margin: -10px;
     margin-left: -20px;
@@ -475,14 +475,29 @@ hr {
     margin-top: 50px;
 }
 .cards {
-    gap: 15px;
+    gap: 25px;
     display: flex;
+    margin-left: 200px;
 }
 .continers {
     background-color:rgb(29,29,29) ;
     border-radius: 15px;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.continers h2 {
+    font-size: 30px;
+}
+.continers h4{
+    margin-top: -26px;
+}
+.continers p{
+    margin-top: -20px;
+    color: rgba(171, 171, 171, 0.739);
+    font-size: 24px;
+    width: 95%;
 }
 .continers img {
     width: 80px;
@@ -490,15 +505,66 @@ hr {
 .continers1 {
     background-color: rgb(29,29,29);
     border-radius:15px ;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
+    padding-left: 30px;
+    padding-top: 50px;
 }
 .continers1 img {
     width: 80px;
 }
+.continers1 h2 {
+    font-size: 30px;
+}
+.continers1 p{
+    margin-top: -20px;
+    color: rgba(171, 171, 171, 0.739);
+    font-size: 24px;
+    width: 95%;
+}
 .continers2 {
     background-color: rgb(29,29,29);
     border-radius:15px ;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.continers2 h2 {
+    font-size: 30px;
+}
+.continers2 p{
+    margin-top: -20px;
+    color: rgba(171, 171, 171, 0.739);
+    font-size: 24px;
+    width: 95%;
+}
+.continers2 img {
+    width: 80px;
+}
+.text-img {
+    display: flex;
+}
+.text-img img {
+    width: 900px;
+    margin-top: 100px;
+}
+.text-img {
+    width: 91%;
+}
+.texts {
+    justify-content: flex-end;
+}
+.texts h1{
+    font-size: 40px;
+    margin-left: 280px;
+    width: 50%;
+    margin-top: 100px;
+}
+.texts p{
+    width: 50%;
+    margin-left: 280px;
+    margin-top: -50px;
+    font-size: 20px;
+    color: rgba(171, 171, 171, 0.739);
 }
